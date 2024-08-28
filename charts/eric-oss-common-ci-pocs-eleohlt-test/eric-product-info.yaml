@@ -1,0 +1,98 @@
+#
+# COPYRIGHT Ericsson 2021
+#
+#
+#
+# The copyright to the computer program(s) herein is the property of
+#
+# Ericsson Inc. The programs may be used and/or copied only with written
+#
+# permission from Ericsson Inc. or in accordance with the terms and
+#
+# conditions stipulated in the agreement/contract under which the
+#
+# program(s) have been supplied.
+#
+
+productName: "eric-oss-common-ci-pocs-eleohlt-test HELM"
+productNumber: "CXC 201 0000"
+images:
+  eric-oss-common-ci-pocs-eleohlt-test:
+    productName: "eric-oss-common-ci-pocs-eleohlt-test IMAGE"
+    productNumber: "CXC 201 0001"
+    registry: "armdocker.rnd.ericsson.se"
+    repoPath: REPO_PATH
+    name: "eric-oss-common-ci-pocs-eleohlt-test"
+    tag: VERSION
+
+  keycloak-client:
+    productName: "Keycloak Client"
+    productNumber: "CXA 301 122"
+    registry: "armdocker.rnd.ericsson.se"
+    repoPath: "proj-orchestration-so"
+    name: "keycloak-client"
+    tag: "1.1.0"
+
+  exposureApiManagerClient:
+    productName: "Exposure Api Manager Client"
+    productNumber: "CXU 101 1786"
+    registry: "armdocker.rnd.ericsson.se"
+    repoPath: "proj-adp-rs-sef-released"
+    name: "eric-sef-exposure-api-manager-client"
+    tag: "1.1.0"
+
+  logShipperImage:
+    productName: "Log Shipper Sidecar Image"
+    productNumber: "CXU 101 1191"
+    registry: "armdocker.rnd.ericsson.se"
+    repoPath: "proj-adp-log-released"
+    name: "eric-log-shipper-sidecar"
+    tag: "1.1.0"
+
+  hooklauncher:
+    productName: Smart Helm Hook Image
+    productNumber: CXU 101 1909
+    registry: armdocker.rnd.ericsson.se
+    repoPath: proj-adp-shh-released
+    name: eric-lcm-smart-helm-hooks-hooklauncher
+    tag: 1.1.0
+
+  jmxExporter:
+    productName: "JMX Exporter"
+    productNumber: "CXU 000 0000"
+    registry: "armdocker.rnd.ericsson.se"
+    repoPath: "proj-adp-message-bus-kf-drop"
+    name: "eric-data-message-bus-kf-jmx-exporter"
+    tag: "1.1.0"
+
+  keyManagement:
+    productName: "Key Management"
+    productNumber: "CXU 000 0000"
+    registry: "armdocker.rnd.ericsson.se"
+    repoPath: "proj-eric-oss-drop"
+    name: "eric-oss-key-management-agent"
+    tag: "1.1.0"
+
+  apiGateway:
+    productName: "API Gateway Client"
+    productNumber: "CXU 000 0000"
+    registry: "armdocker.rnd.ericsson.se"
+    repoPath: "proj-eric-oss-drop"
+    name: "eric-api-gateway-client"
+    tag: "1.1.0"
+
+  proxyOauth:
+    productName: "Proxy OAuth"
+    productNumber: "CXU 000 0000"
+    registry: "armdocker.rnd.ericsson.se"
+    repoPath: "proj-common-assets-cd-released"
+    name: "eric-sec-authorization-proxy-oauth2"
+    tag: "1.1.0"
+
+  proxyOauthSap:
+    productName: "Proxy OAuth SAP"
+    productNumber: "CXU 000 0000"
+    registry: "armdocker.rnd.ericsson.se"
+    repoPath: "proj-common-assets-cd-released"
+    name: "eric-sec-authorization-proxy-oauth2-sap"
+    tag: "1.1.0"
